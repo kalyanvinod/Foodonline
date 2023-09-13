@@ -23,4 +23,5 @@ git config --global user email "vinod90python@gmail.com"
 git init :it initialize the current project as git project.
 
 git add -A :this is to get all changes
+git commit -m "first commit" -
 
