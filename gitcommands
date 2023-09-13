@@ -1,0 +1,26 @@
+echo "# Foodonline" >> README.md
+git init:it intialize the current project as git project.
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/vinodkarnat/Foodonline.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/vinodkarnat/Foodonline.git
+git branch -M main
+git push -u origin main
+
+
+first time git configaration..
+git config --global user.name "vinodkarnat"
+git config --global user email "vinod90python@gmail.com"
+
+
+.gitignore:In this file we enter files and folders that we don't want to send git hub repositary.
+
+
+
+git init :it initialize the current project as git project.
+
+git add -A :this is to get all changes
+
