@@ -24,5 +24,19 @@ git init :it initialize the current project as git project.
 
 git add -A :this is to get all changes
 git commit -m "first commit" - 
+git remote add origin <url>
+git branch -M main
+git push -u origin main
+
+
+
+For static configration:
+STATIC_ROOT = BASE_DIR/'static'
+STATICFILES_DIRS = [
+  'foodonline/static'
+]
+
+if we want to out static files in production server we use this command:
+python manage.py collectstatic
 
 
